@@ -1,0 +1,88 @@
+.advant-fluid{
+    background-image: url(../../../assets/img/icons_transparent.png);
+    background-color: #03a9f3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: anim 7s infinite;
+    padding-top: 95px;
+}
+
+@keyframes anim {
+    0%{
+        background-size: 100%;
+    }
+    50%{
+        background-size: 90%;
+    }
+    100%{
+        background-size: 100%;
+    }
+}
+
+.advant-fluid .advant h2{
+    font-size: 33px;
+    color: #ffffff;
+    margin-bottom: 65px;
+    font-weight: 500;
+    font-family: Poppins-Bold;
+    text-align: center;
+}
+
+.advant-fluid .advant .advantbox .advant-boxes{
+    width: 360px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 10px rgba(202,202,202,0.25));
+    background-color: #ffffff;
+    text-align: center;
+    transition: all 2s linear;
+}
+
+.advant-fluid .advant .advantbox .advant-boxes img{
+    margin: 30px 0;
+}
+
+.advant-fluid .advant .advantbox .advant-boxes:hover img{
+    transform: scale(1.2);
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px black);
+}
+
+.advant-fluid .advant .advantbox .advant-boxes h3{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Poppins-Bold;
+}
+
+.advant-fluid .advant .advantbox .advant-boxes p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #51555a;
+    font-weight: 400;
+    font-family: Poppins-Light;
+    margin-bottom: 45px;
+}
+
+.advant-fluid .advant .advantbox .but{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.advant-fluid .advant .advantbox .but .btn a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #1088c7;
+  border: 1px solid #1088c7;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: Poppins-Medium;
+  text-decoration: none;
+  &:hover{
+    background-color: #f75e2d;
+  }
+}
