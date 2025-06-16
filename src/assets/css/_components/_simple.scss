@@ -1,0 +1,41 @@
+.simple-fluid .simple h2{
+    font-size: 33px;
+    color: #323538;
+    font-weight: 500;
+    font-family: Poppins-Regular;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.simple-fluid .simple .simplbox .simp_cont{
+    text-align: center;
+    width: 250px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.simple-fluid .simple .simplbox .simp_cont1::before{
+    content: '';
+    height: 180px;
+    width: 16px;
+    background-image: url(../../../assets/img/arrow_ourSimple.png);
+    position: absolute;
+    left: 270px;
+}
+
+.simple-fluid .simple .simplbox .simp_cont h3{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Poppins-Bold;
+}
+
+.simple-fluid .simple .simplbox .simp_cont p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #51555a;
+    font-weight: 400;
+    font-family: Poppins-Light;
+}
