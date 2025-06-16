@@ -1,0 +1,108 @@
+.blueessay-fluid{
+  background-image: url(../../../assets/img/Vector\ Smart\ Object.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #e6f7fe;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+.blueessay-fluid .blueessay {
+  position: relative;
+}
+
+.blueessay-fluid .blueessay .cloud{
+    position: absolute;
+    left: -500px;
+    top: 50px;
+    animation: clod linear 10s infinite;
+    animation-delay: 5s;
+    z-index: 0;
+}
+
+.blueessay-fluid .blueessay .cloud1{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    animation: clod1 linear 10s infinite;
+    z-index: 0;
+}
+
+@keyframes clod {
+  from {
+    left: -600px;
+  }
+  to {
+    left: 140%;
+  }
+}
+
+@keyframes clod1 {
+  from {
+    left: -400px;
+  }
+  to {
+    left: 140%;
+  }
+}
+
+.blueessay-fluid .blueessay .box_essay .left{
+    z-index: 1;
+}
+
+.blueessay-fluid .blueessay .box_essay .left h1{
+    margin-top: 145px;
+    margin-left: 25px;
+    font-size: 47px;
+    letter-spacing: -1px;
+    font-family: Poppins-Bold;
+}
+
+.blueessay-fluid .blueessay .box_essay .left h1 span{
+    color: #03a9f4;
+}
+
+.blueessay-fluid .blueessay .box_essay .right{
+    z-index: 1;
+}
+
+.blueessay-fluid .blueessay .box_essay .right img{
+    margin-top: 105px;
+}
+
+.blueessay-fluid .blueessay .box_essay .left .proces{
+    width: 550px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    height: 4px;
+    background-color: #b0bcc2;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.blueessay-fluid .blueessay .box_essay .left .proces .proces-fill{
+    height: 100%;
+    width: 0;
+    background-color: #f75d2d;
+}
+
+.blueessay-fluid .blueessay .box_essay .left .proces:hover .proces-fill{
+    animation: slise 1s forwards;
+}
+
+.blueessay-fluid .blueessay .box_essay .left p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #656a70;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+@keyframes slise {
+    from {
+    width: 0;
+  }
+  to {
+    width: 25%; 
+  }
+}
