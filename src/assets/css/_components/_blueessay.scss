@@ -4,7 +4,7 @@
   background-size: auto;
   background-color: #e6f7fe;
   background-position: bottom;
-  overflow: hidden;
+  padding-bottom: 60px;
 }
 
 .blueessay-fluid .blueessay {
@@ -95,7 +95,7 @@
 
 .blueessay-fluid .blueessay .box_essay .right img{
   margin-top: 105px;
-  margin-bottom: 75px;
+
 }
 
 .blueessay-fluid .blueessay .box_essay .left .proces{
@@ -118,12 +118,82 @@
   animation: slise 1s forwards;
 }
 
-.blueessay-fluid .blueessay .box_essay .left p{
-  font-size: 20px;
-  line-height: 30px;
+.blueessay-fluid .blueessay .box_essay .box_center{
+  height: 135px;
+  filter: drop-shadow(0px 4px 15px rgba(202,202,202,0.15));
+  background-color: #03a9f3;
+  position: absolute;
+  bottom: -120px;
+}
+
+.blueessay-fluid .blueessay .box_essay .box_center .box_text{
+  display: flex;
+  flex-direction: column;
+}
+
+.blueessay-fluid .blueessay .box_essay .box_center .box_text label{
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: Poppins-Medium;
+}
+
+.blueessay-fluid .blueessay .box_essay .box_center .box_text select{
+  width: 202px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #f6f9f9;
+  border: 1px solid #d8dadb;
+  font-size: 13px;
   color: #656a70;
   font-weight: 400;
-  font-family: "Poppins";
+  font-family: Poppins-Medium;
+  padding: 0 10px;
+}
+
+.blueessay-fluid .blueessay .box_essay .box_center .box_text .number{
+  display: flex;
+}
+
+.blueessay-fluid .blueessay .box_essay .box_center .box_text .number button{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d8dadb;
+  font-size: 30px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.blueessay-fluid .blueessay .box_essay .box_center .box_text .number span{
+  border: 1px solid #d8dadb;
+  border-radius: 2px;
+  display: block;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  background-color: #f6f9f9;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.blueessay-fluid .blueessay .box_essay .box_center .btn a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #1088c7;
+  border: 1px solid #1088c7;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  &:hover{
+    background-color: #f75e2d;
+  }
 }
 
 @keyframes slise {
