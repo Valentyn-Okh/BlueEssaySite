@@ -20,3 +20,28 @@
     font-weight: 400;
     font-family: Poppins-Light;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .welcome-fluid .welcome .box_wel .rightbox h2{
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .welcome-fluid .welcome .box_wel .leftbox img{
+        width: 450px;
+        height: 415px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .welcome-fluid{
+        padding-top: 200px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .welcome-fluid{
+        padding-top: 320px;
+    }
+}

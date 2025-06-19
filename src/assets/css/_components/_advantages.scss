@@ -1,7 +1,6 @@
 .advant-fluid{
     background-image: url(../../../assets/img/icons_transparent.png);
     background-color: #03a9f3;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     animation: anim 7s infinite;
@@ -85,4 +84,29 @@
   &:hover{
     background-color: #f75e2d;
   }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .advant-fluid .advant .advantbox .advant-boxes{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .advant-fluid .advant .advantbox .advant-boxes{
+        width: 230px;
+   }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .advant-fluid .advant .advantbox .advant-boxes{
+        margin-top: 15px;
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .advant-fluid .advant .advantbox .advant-boxes{
+        width: 250px;
+        margin-top: 15px;
+   }
 }

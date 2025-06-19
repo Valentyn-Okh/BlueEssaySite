@@ -51,7 +51,7 @@
     padding: 0;
     filter: drop-shadow(0px 4px 15px rgba(202,202,202,0.55));
     position: absolute;
-    bottom: -200px;
+    bottom: -250px;
 }
 
 .discount-fluid .discount .discbox .infor .contleft{
@@ -118,7 +118,7 @@
     position: absolute;
     bottom: 25px;
     right: -35px;
-    filter: drop-shadow(10px 10px 15px black);
+    filter: drop-shadow(10px 10px 10px black);
 }
 
 .discount-fluid .discount .discbox .infor .contright .right_box h3{
@@ -232,4 +232,409 @@
     font-weight: 500;
     font-family: Poppins-Light;
     text-align: center;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .discount-fluid .discount .discbox .infor{
+        width: 800px;
+    }
+
+    .discount-fluid .discount .discbox .infor .contright .right_box .get .tget{
+        left: 60px;
+    }
+
+    .discount-fluid .discount .discbox .infor .contleft .tier-card{
+        width: 180px;
+    }
+
+    @keyframes scissor {
+        0%{
+            right: 0;
+            top: -15px;
+        }
+        25%{
+            left: 270px;
+            top: -15px;
+            transform: rotate(45deg);
+        }
+        50%{
+            left: 270px;
+            top: 220px;
+            transform: rotate(90deg);
+        }
+        75%{
+            left: -10px;
+            top: 220px;
+            transform: rotate(180deg);
+        }
+        100%{
+            left: -10px;
+            top: -15px;
+            transform: rotate(270deg);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .discount-fluid .discount .discbox .infor{
+        width: 600px;
+    }
+
+    .discount-fluid .discount .discbox .infor .contleft .tier-card{
+        width: 120px;
+    }
+
+    .discount-fluid .discount .discbox .infor .contright .right_box h3{
+        margin-bottom: 30px;
+    }
+
+    .discount-fluid .discount .discbox .infor .contright .right_box .get h5{
+        font-size: 50px;
+    }
+
+    .discount-fluid .discount .discbox .infor .contright .right_box .getp{
+        font-size: 15px;
+    }
+
+    .discount-fluid .discount .discbox .infor .contright .right_box .get .tget{
+        left: 40px;
+    }
+
+    @keyframes scissor {
+        0%{
+            right: 0;
+            top: -15px;
+        }
+        25%{
+            left: 180px;
+            top: -15px;
+            transform: rotate(45deg);
+        }
+        50%{
+            left: 180px;
+            top: 220px;
+            transform: rotate(90deg);
+        }
+        75%{
+            left: -10px;
+            top: 220px;
+            transform: rotate(180deg);
+        }
+        100%{
+            left: -10px;
+            top: -15px;
+            transform: rotate(270deg);
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .discount-fluid .discount .discbox .di p{
+        width: 500px;
+        margin-bottom: 40px;
+    }
+
+    .discount-fluid .discount .discbox .contleft{
+        background-color: #ffffff;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card{
+        text-align: center;
+        padding-right: 15px;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card:nth-child(1){
+        border-right: 1px solid #e1e1e7;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card:nth-child(2){
+        border-right: 1px solid #e1e1e7;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card:nth-child(3){
+        border-right: 1px solid #e1e1e7;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card h4{
+        font-size: 35px;
+        line-height: 40px;
+        color: #f75e2e;
+        font-family: Poppins-Bold;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card .discount-condition{
+        font-size: 14px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: Poppins-Light;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card .color{
+        font-size: 17px;
+        color: #0287c3;
+        font-weight: 600;
+    }
+
+    .discount-fluid .discount .discbox .contright{
+        background-color: #03a9f4;
+        padding: 20px;
+    }
+
+    .discount-fluid .discount .discbox  .contright .right_box{
+        border: 3px dashed #0287c3;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: Poppins-Medium;
+        margin-top: 15px;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get{
+        border: 3px dashed #ffffff;
+        border-radius: 10px;
+        background-color: #1088c7;
+        position: relative;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get h5{
+        font-size: 30px;
+        color: #e2f55d;
+        font-family: Poppins-Bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get .tget{
+        margin-top: 10px;
+        display: block;
+        font-size: 24px;
+        letter-spacing: 0px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        margin-left: 150px;
+        font-family: Poppins-Medium;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get p{
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: Poppins-Light;
+        text-align: center;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .getp{
+        margin-top: 25px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 23px;
+        color: #ffffff;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Open Sans";
+        text-align: center;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get::after{
+        content: '';
+        width: 89px;
+        height: 106px;
+        background-image: url(../../../assets/img/stars.png);
+        position: absolute;
+        top: -15px;
+        right: -15px;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get::before{
+    content: '';
+        width: 38px;
+        height: 30px;
+        background-image: url(../../../assets/img/scissors.png);
+        position: absolute;
+        top: -15px;
+        left: -10px;
+        animation: scissor 12s infinite;
+    }
+
+    @keyframes scissor {
+        0%{
+            right: 0;
+            top: -15px;
+        }
+        25%{
+            left: 430px;
+            top: -15px;
+            transform: rotate(45deg);
+        }
+        50%{
+            left: 430px;
+            top: 150px;
+            transform: rotate(90deg);
+        }
+        75%{
+            left: -10px;
+            top: 150px;
+            transform: rotate(180deg);
+        }
+        100%{
+            left: -10px;
+            top: -15px;
+            transform: rotate(270deg);
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .discount-fluid .discount .discbox .di p{
+        width: 280px;
+        margin-bottom: 40px;
+    }
+
+    .discount-fluid .discount .discbox .di h2{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .discount-fluid .discount .discbox .contleft{
+        background-color: #ffffff;
+        width: 280px;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card{
+        text-align: center;
+        padding-right: 15px;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card:nth-child(1){
+        border-right: 1px solid #e1e1e7;
+        border-bottom: 1px solid #e1e1e7;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card:nth-child(2){
+        border-bottom: 1px solid #e1e1e7;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card:nth-child(3){
+        border-right: 1px solid #e1e1e7;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card h4{
+        font-size: 35px;
+        line-height: 40px;
+        color: #f75e2e;
+        font-family: Poppins-Bold;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card .discount-condition{
+        font-size: 14px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: Poppins-Light;
+    }
+
+    .discount-fluid .discount .discbox .contleft .tier-card .color{
+        font-size: 17px;
+        color: #0287c3;
+        font-weight: 600;
+    }
+
+    .discount-fluid .discount .discbox .contright{
+        background-color: #03a9f4;
+        padding: 20px;
+    }
+
+    .discount-fluid .discount .discbox  .contright .right_box{
+        border: 3px dashed #0287c3;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: Poppins-Medium;
+        margin-top: 15px;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get{
+        border: 3px dashed #ffffff;
+        border-radius: 10px;
+        background-color: #1088c7;
+        position: relative;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get h5{
+        font-size: 30px;
+        color: #e2f55d;
+        font-family: Poppins-Bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get .tget{
+        margin-top: 10px;
+        display: block;
+        font-size: 24px;
+        letter-spacing: 0px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        margin-left: 50px;
+        font-family: Poppins-Medium;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get p{
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: Poppins-Light;
+        text-align: center;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .getp{
+        margin-top: 25px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 23px;
+        color: #ffffff;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Open Sans";
+        text-align: center;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get::after{
+        content: '';
+        width: 89px;
+        height: 106px;
+        background-image: url(../../../assets/img/stars.png);
+        position: absolute;
+        top: -15px;
+        right: -15px;
+    }
+
+    .discount-fluid .discount .discbox .contright .right_box .get::before{
+        content: '';
+        width: 38px;
+        height: 30px;
+        background-image: url(../../../assets/img/scissors.png);
+        position: absolute;
+        top: -15px;
+        left: -10px;
+    }
 }

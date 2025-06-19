@@ -1,0 +1,72 @@
+.clients-fluid .clients h2{
+    margin-top: 310px;
+    margin-bottom: 50px;
+    font-size: 33px;
+    font-weight: 500;
+    font-family: Poppins-Medium;
+    text-align: center;
+}
+
+.clients-fluid .clients .testimonial{
+    position: relative;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.clients-fluid .clients .testimonial p{
+    width: 612px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #51555a;
+    font-weight: 300;
+    font-family: Poppins-Light;
+    margin-top: 30px;
+}
+
+.clients-fluid .clients .testimonial h5{
+    font-size: 17px;
+    color: #0287c3;
+    font-weight: 600;
+    font-family: Poppins-Medium;
+}
+
+.clients-fluid .clients .testimonial span{
+    font-size: 13px;
+    color: #a3a6a9;
+    font-weight: 300;
+    font-family: Poppins-Light;
+}
+
+.clients-fluid .clients .testimonial::before{
+    content: '';
+    width: 32px;
+    height: 63px;
+    background-image: url(../../../assets/img/arrow.png);
+    position: absolute;
+    left: 0;
+}
+
+.clients-fluid .clients .testimonial::after{
+    content: '';
+    width: 32px;
+    height: 63px;
+    background-image: url(../../../assets/img/arrow-right.png);
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .clients-fluid .clients .testimonial p{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .clients-fluid{
+        padding-top: 320px;
+    }
+
+    .clients-fluid .clients .testimonial p{
+        width: 200px;
+    }
+}
