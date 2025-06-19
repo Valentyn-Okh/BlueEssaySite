@@ -50,3 +50,92 @@ footer .foot .footbox1 .left ul li{
     font-weight: 400;
     font-family: Poppins-Medium;
 }
+
+footer .foot .footbox2 .imag .img{
+    margin-right: 10px;
+    position: relative;
+}
+
+footer .foot .footbox2 .imag .img::before{
+    content: '';
+    width: 34px;
+    height: 34px;
+    background-image: url(../../../assets/img/facebook-hover.png);
+    position: absolute;
+    display: none;
+}
+
+footer .foot .footbox2{
+    margin-top: 40px;
+}
+
+footer .foot .footbox2 .imag .img:hover::before{
+    display: inline;
+    cursor: pointer;
+}
+
+footer .foot .footbox2 .imag .img:nth-child(2):before{
+    background-image: url(../../../assets/img/twitter-hover.png);
+}
+
+footer .foot .footbox2 .imag .img:nth-child(3):before{
+    background-image: url(../../../assets/img/pinterest-hover.png);
+}
+
+footer .foot .footbox2 .imag .img:nth-child(4):before{
+    background-image: url(../../../assets/img/google-plus-hover.png);
+}
+
+footer .foot .footbox2 .end p{
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: "Museo Sans";
+}
+
+footer .foot .footbox2 .tel p{
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: Poppins-Medium;
+    padding-left: 10px;
+}
+
+footer .foot .footbox2 .tel p span{
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    footer .foot .footbox2 .end p{
+        margin-bottom: 15px;
+    }
+
+    footer .foot .footbox2 .imag{
+        margin-bottom: 20px;
+    }
+
+    footer .foot .footbox2 .tel{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    br{
+        display: none;
+    }
+
+    footer .foot .footbox2 .end p{
+        margin-bottom: 15px;
+    }
+
+    footer .foot .footbox2 .imag{
+        margin-bottom: 20px;
+    }
+
+    footer .foot .footbox2 .tel{
+        margin-bottom: 20px;
+    }
+}
